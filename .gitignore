@@ -1,0 +1,66 @@
+# venv files 
+.venv 
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+
+# Data files
+*.csv
+*.data
+*.json
+*.ipynb 
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+*.ipynb_checkpoints 
